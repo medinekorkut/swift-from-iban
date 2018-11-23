@@ -4,8 +4,9 @@ namespace OguzCabuk\SwiftFromIban\Test;
 
 
 use OguzCabuk\SwiftFromIban\SwiftCode;
+use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 
-class SwiftCodeTest extends \PHPUnit_Framework_TestCase
+class SwiftCodeTest extends PHPUnitTestCase
 {
     public function testClassLoad()
     {
